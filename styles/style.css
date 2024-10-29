@@ -1,23 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* Shared Styles */
-.font{
+.azeret-mono-font {
     font-family: "Azeret Mono", monospace;
-}
-.text-primary{
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+.text-primary {
     color: #0D1321;
 }
-.text-secondary{
+
+.text-secondary {
     color: #FFFFFF;
 }
-.section-margin{
+
+.section-margin {
     margin: 0 150px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
 
+.navbar>h3 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+}
 
+.nav-btn {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
 
+}
