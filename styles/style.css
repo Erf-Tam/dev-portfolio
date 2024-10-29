@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+/* Shared Styles */
 .font{
     font-family: "Azeret Mono", monospace;
 }
+.text-primary{
+    color: #0D1321;
+}
+.text-secondary{
+    color: #FFFFFF;
+}
+.section-margin{
+    margin: 0 150px;
+}
+
+/* Navbar Styles */
+
+
+
