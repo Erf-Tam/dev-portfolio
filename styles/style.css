@@ -50,6 +50,10 @@
     opacity: 0.8;
     background-color: #FFFFFF;
     cursor: pointer;
-    
+}
 
+/* Hero-Banner Styles */
+.hero-banner{
+    height: 720px;
+    background-image: url('../assets/Hero-bg.png');
 }
