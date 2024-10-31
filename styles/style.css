@@ -45,6 +45,38 @@
     margin: 0 auto;
 }
 
+.dev-box-width{
+    width: 480px;
+}
+.dev-box-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+
+.dev-box-info {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.dev-box-btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    opacity: 0.7;
+    border: 1px solid rgb(13, 19, 33);
+    background:none;
+}
+
+
+/* Shared Styles End */
+
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -124,7 +156,8 @@
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
-.web-development-section > div{
+
+.web-development-section>div {
     padding-top: 70px;
     padding-bottom: 50px;
 }
