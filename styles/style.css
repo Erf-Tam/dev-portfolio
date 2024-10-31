@@ -26,6 +26,21 @@
     text-align: center;
 }
 
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section-content{
+    width: 950px;
+    margin: 0 auto;
+}
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -97,4 +112,9 @@
     border: none;
     background: rgb(13, 19, 33);
     cursor: pointer;
+}
+
+/* Web Development Section */
+.web-development-section{
+    margin-top: 75px;
 }
