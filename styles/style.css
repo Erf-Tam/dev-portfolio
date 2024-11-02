@@ -19,7 +19,8 @@
 }
 
 .section-margin {
-    margin: 0 150px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .text-center {
