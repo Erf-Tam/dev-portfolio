@@ -189,9 +189,10 @@
 }
 
 /* Inspiration Section Styles*/
-.inspiration-section{
+.inspiration-section {
     margin-top: 90px;
 }
+
 .inspiration-video {
     margin-top: 48px;
     padding: 32px;
@@ -213,6 +214,9 @@
     display: flex;
     gap: 24px;
 }
+.card-items h4 {
+    margin-top: 24px;
+}
 
 .card-width {
     width: 380px;
@@ -233,7 +237,6 @@
 }
 
 .card-title {
-    margin-top: 24px;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -256,7 +259,19 @@
 
 /* Next Target Section Styles */
 
-.next-target{
+.next-target {
     margin-top: 100px;
     margin-bottom: 48px;
+}
+.next-card{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.card-border {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 48px;
 }
