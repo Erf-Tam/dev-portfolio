@@ -333,7 +333,7 @@
     opacity: 0.4;
 }
 
-.contact-info input[type="submit"] {
+.contact-info button[type="submit"] {
     padding: 17px 20px;
     border-radius: 8px;
     border: none;
@@ -345,6 +345,8 @@
     letter-spacing: 0%;
     text-align: center;
     background-color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
 }
 
 /* Footer Styles */
