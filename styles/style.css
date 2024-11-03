@@ -346,3 +346,14 @@
     text-align: center;
     background-color: #FFFFFF;
 }
+
+/* Footer Styles */
+.footer-section {
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
